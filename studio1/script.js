@@ -19,14 +19,10 @@ function onboard(){
 }
 function original(){
 	insideverb[0].value = "drink";
-	insideverb[1].value = "wash";	
 	insidenoun[0].value = "apple";
 	insidenoun[1].value = "apple";
-	insidenoun[2].value = "teapot";
-	insidenoun[3].value = "teapot";
-	insideadj[0].value = "much";
+	insideadj[0].value = "nice";
 	insideadj[1].value = "nice";
-	insideadj[2].value = "nice";
 }
 
 function trysubmit(){
@@ -53,14 +49,10 @@ function trysubmit(){
 }
 function startgame(){
 	insideverb[0].value = verbres.innerHTML;
-	insideverb[1].value = verbres.innerHTML;
 	insidenoun[0].value = nounres.innerHTML;
 	insidenoun[1].value = nounres.innerHTML;
-	insidenoun[2].value = nounres.innerHTML;
-	insidenoun[3].value = nounres.innerHTML;
 	insideadj[0].value = adres.innerHTML;
 	insideadj[1].value = adres.innerHTML;
-	insideadj[2].value = adres.innerHTML;
 }
 
 
