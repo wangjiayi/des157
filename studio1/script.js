@@ -53,6 +53,8 @@ function startgame(){
 	insidenoun[1].value = nounres.innerHTML;
 	insideadj[0].value = adres.innerHTML;
 	insideadj[1].value = adres.innerHTML;
+	document.getElementById("art").style.display = "block";
+	
 }
 
 
