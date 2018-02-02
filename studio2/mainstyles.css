@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/****************** start outline of different part*****************/
+
+body{
+  font-family: GoudyStd-Bold;
+  background-color: #F7ECF4;
+  height: 700px;
+}
+section{
+  width: 35%;
+  float: left;
+  height: 700px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+article{
+  height: 700px;
+  width: 50%;
+  float: left;
+  margin-top: 4%;
+}
+div{
+  float: left;
+}
+#top{
+  width:100%;
+  height: 60px;
+  float: left;
+  background: white;
+  border: solid 10px pink;
+}
+#bottom{
+  height: 600px;
+  float: left;
+  width: 100%;
+}
+#bottomleft{
+  border:solid 10px pink;
+  margin-top: 10%;
+  width:70%;
+  float: left;
+  height: 80%;
+}
+#bottomright{
+  margin-top: 10%;
+  width: 20%;
+  float: left;
+  border:solid 10px pink;
+  margin-left: 2%;
+  height: 80%;
+}
+#bottomright form{
+  padding-top: 20%;
+}
+
+/*********start differnt part's image size change*********/
+section img{
+  height: 90%;
+  width: auto;
+  border: solid 20px pink;
+}
+#top img{
+  width: 10%;
+  height: auto;
+  float: left;
+  padding-top: 3px;
+}
+#bottomleft img{
+  width: 40%;
+  padding-left: 7%;
+  padding-top: 40px;
+  height:auto;
+  float: left;
+}
+
+/**********************start about the font************************/
+h1{
+  padding-left: 15%;
+  padding-top: 15px;
+  font-size: 30px;
+  color:#727272;
+}
+form {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 100px;
+  color:#727272;
+}
+input{
+  margin-right: 10px;
+  width: 20px;
+  height:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
