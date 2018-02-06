@@ -126,11 +126,11 @@ section img{
 h1{
   padding-left: 15%;
   padding-top: 15px;
-  font-size: 30px;
+  font-size: 26px;
   color:#727272;
 }
 form {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   line-height: 100px;
   color:#727272;
@@ -140,12 +140,107 @@ input{
   width: 20px;
   height:15px;
 }
+/**********************here is for footer********************************************/
 
+footer{
+  padding-top: 25px;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  font-size: 16px;
+  color: pink;
+  float: left;
+}
+footer p {
+  padding-top: 2px; 
+  line-height: 18px;
+  font-size: 12px;
+}
+footer a {
+  text-decoration: none;
+  color: pink;
+  text-align: center;
+}
+#fleft, #fright {
+  width: 50%;
+  float: left;
+  margin:auto;
+}
+/**********************here is work for the viewport change*************************************/
 
+@media (max-width: 1160px){
+  section{
+    background-color: pink;
+    width: 80%;
+    float: none;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 2%;
+    text-align: center;
+    
+  }
+  section img{
+    height: 100%;
+    width: auto;
+    border: none;
+    display:inline;
 
-
-
-
+  }
+  article{
+    height: 650px;
+    width: 90%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  #top img{
+    width: 6%;
+    height: auto;
+    float: left;
+    padding-top: 3px;
+  }
+  #bottom{
+    margin-left: 2.5%;
+  }
+  #bottomleft{
+    margin-top: 3%;
+  }
+  #bottomright{
+    margin-top: 3%;
+  }  
+  #bottomleft img {
+    width: 25%;
+  } 
+  footer{
+    padding-top: 2px;
+  }
+}
+@media (max-width: 768px){
+  #top img{
+    width: 10%;
+    height: auto;
+    float: left;
+    padding-top: 3px;
+  }  
+  #bottomleft img {
+    width: 30%;
+  } 
+  #bottomleft{
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #bottomright{
+    position:absolute;
+    border: none;
+    padding-left: 62%;
+  }
+  form{
+    font-size: 18px;
+    line-height: 80px;
+  }   
+}
 
 
 

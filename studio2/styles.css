@@ -48,14 +48,15 @@ table {
 }
 
 
-/****************** start header *****************/
+/****************** start body*****************/
 
 body{
   text-align: center;
   font-family: GoudyStd-Bold;
 }
 div{
-  min-height: 100vh;
+  padding-top: 150px;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +65,7 @@ div{
 p{
   font-size: 50px;
   color: #EBC1DA;
-  line-height: 80px;
+  line-height: 70px;
 }
 #middle_button{
   margin-top: 30px;
@@ -73,8 +74,35 @@ p{
   border-radius:25px;
   background-color: #EBC1DA;
   width: 180px;
-  height: 50px;
+  height: 65px;
   color: white;
   font-family: GoudyStd-Bold;
   cursor: pointer;
 }
+/****************** start footer*****************/
+footer{
+  padding-top: 25px;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  font-size: 16px;
+  color: #EBC1DA;
+  float: left;
+}
+footer p {
+  padding-top: 2px; 
+  line-height: 18px;
+  font-size: 12px;
+}
+a,footer a {
+  text-decoration: none;
+  color: #EBC1DA;
+  text-align: center;
+}
+#fleft, #fright {
+  width: 50%;
+  float: left;
+  margin:auto;
+}
+
+
