@@ -53,20 +53,19 @@ table {
 body{
   font-family: GoudyStd-Bold;
   background-color: #F7ECF4;
-  height: 700px;
 }
 section{
   width: 35%;
   float: left;
   height: 700px;
-  margin-left: 5%;
-  margin-top: 4%;
+  margin-left: 7%;
+  margin-top: 1%;
 }
 article{
   height: 700px;
   width: 50%;
   float: left;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 div{
   float: left;
@@ -85,13 +84,13 @@ div{
 }
 #bottomleft{
   border:solid 10px pink;
-  margin-top: 10%;
+  margin-top: 3%;
   width:70%;
   float: left;
-  height: 80%;
+  height: 95%;
 }
 #bottomright{
-  margin-top: 10%;
+  margin-top: 8%;
   width: 20%;
   float: left;
   border:solid 10px pink;
@@ -109,16 +108,16 @@ section img{
   border: solid 20px pink;
 }
 #top img{
-  width: 8%;
+  width: 60px;
   height: auto;
   float: left;
   padding-top: 3px;
   padding-left: 7%;
 }
 #bottomleft img{
-  width: 40%;
+  width: 200px;
   padding-left: 7%;
-  padding-top: 40px;
+  padding-top: 55px;
   height:auto;
   float: left;
   animation: shake 0.9s;
@@ -184,7 +183,7 @@ footer a {
 }
 /**********************here is work for the viewport change*************************************/
 
-@media (max-width: 1160px){
+@media (max-width: 1362px){
   section{
     background-color: pink;
     width: 80%;
@@ -203,14 +202,14 @@ footer a {
 
   }
   article{
-    height: 650px;
+    height: 750px;
     width: 90%;
     float: left;
     margin-top: 1%;
     margin-left: 5%;
   }
   #top img{
-    width: 6%;
+    width: 60px;
     height: auto;
     float: left;
     padding-top: 3px;
@@ -225,7 +224,7 @@ footer a {
     margin-top: 3%;
   }  
   #bottomleft img {
-    width: 25%;
+    width: 200px;
   } 
   footer{
     padding-top: 2px;
@@ -233,7 +232,7 @@ footer a {
 }
 @media (max-width: 768px){
   #top img{
-    width: 10%;
+    width: 60px;
     height: auto;
     float: left;
     padding-top: 3px;
