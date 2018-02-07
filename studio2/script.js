@@ -28,7 +28,7 @@ function callfunction(){
 	 	makeup.checked = false;
 	 }
 	 if (lipstick.checked == true && glass.checked == true && blash.checked == true){
-	 	myphoto.src = "images/1_4.jpg";
+	 	myphoto.src = "images/1_5.jpg";
 	 	speak.innerHTML= "No eyeglass!!Preety blash and lip color.";
 	 	face.src = "images/face/9.jpg";
 	 	image5.style.display = "block";
