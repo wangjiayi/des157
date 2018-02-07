@@ -113,6 +113,7 @@ section img{
   height: auto;
   float: left;
   padding-top: 3px;
+  padding-left: 7%;
 }
 #bottomleft img{
   width: 40%;
@@ -120,13 +121,28 @@ section img{
   padding-top: 40px;
   height:auto;
   float: left;
+  animation: shake 0.9s;
+  animation-iteration-count: 10s;
 }
 
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 /**********************start about the font************************/
 h1{
   padding-left: 15%;
-  padding-top: 15px;
-  font-size: 26px;
+  padding-top: 20px;
+  font-size: 25px;
   color:#727272;
 }
 form {
