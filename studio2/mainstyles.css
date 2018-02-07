@@ -122,7 +122,7 @@ section img{
   height:auto;
   float: left;
   animation: shake 0.9s;
-  animation-iteration-count: 10s;
+  animation-iteration-count: 5;
 }
 
 @keyframes shake {
