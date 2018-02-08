@@ -34,9 +34,9 @@ function callfunction(){
 	 	image5.style.display = "block";
 	 	image6.style.display = "block";
 	 	image7.style.display = "block";
-	 	image5.style.width = "40%";
-	 	image6.style.width = "40%";
-	 	image7.style.width = "40%";
+	 	image5.style.width = "200px";
+	 	image6.style.width = "200px";
+	 	image7.style.width = "200px";
 	 	image8.style.display = "none";
 	 }else if (lipstick.checked == true && glass.checked == true && blash.checked == false){
 	 	myphoto.src = "images/1_4.jpg";
@@ -44,8 +44,8 @@ function callfunction(){
 	 	face.src = "images/face/7.jpg";
 	 	image5.style.display = "block";
 	 	image7.style.display = "block"; 	
-	 	image5.style.width = "40%";
-	 	image7.style.width = "40%";
+	 	image5.style.width = "200px";
+	 	image7.style.width = "200px";
 	 	image6.style.display = "none";
 	 	image8.style.display = "none";
 	 }else if(lipstick.checked == true && glass.checked == false && blash.checked == true){
@@ -54,8 +54,8 @@ function callfunction(){
 	 	face.src = "images/face/4.jpg";
 	 	image7.style.display = "block";
 	 	image6.style.display = "block"; 	
-	 	image7.style.width = "40%";
-	 	image6.style.width = "40%";
+	 	image7.style.width = "200px";
+	 	image6.style.width = "200px";
 	 	image5.style.display = "none";
 	 	image8.style.display = "none";
 	 }else if(lipstick.checked == true && glass.checked == false && blash.checked == false){
@@ -63,7 +63,7 @@ function callfunction(){
 	 	speak.innerHTML= "I love this beautiful lipstick!";
 	 	face.src = "images/face/3.jpg";
 	 	image7.style.display = "block";	
-	 	image7.style.width = "80%";
+	 	image7.style.width = "400px";
 	 	image5.style.display = "none"; 
 	 	image6.style.display = "none";
 	 	image8.style.display = "none";
@@ -73,8 +73,8 @@ function callfunction(){
 	 	face.src = "images/face/2.jpg";
 	 	image6.style.display = "block";
 	 	image5.style.display = "block"; 	
-	 	image6.style.width = "40%";
-	 	image5.style.width = "40%";
+	 	image6.style.width = "200px";
+	 	image5.style.width = "200px";
 	 	image7.style.display = "none";
 	 	image8.style.display = "none";
 	 }else if(lipstick.checked == false && glass.checked == true && blash.checked == false){
@@ -82,7 +82,7 @@ function callfunction(){
 	 	speak.innerHTML= "I don't like eyeglass!!!!!";
 	 	face.src = "images/face/6.jpg";
 	 	image5.style.display = "block";		
-	 	image5.style.width = "80%";
+	 	image5.style.width = "400px";
 	 	image7.style.display = "none";
 	 	image6.style.display = "none"; 
 	 	image8.style.display = "none";
@@ -91,7 +91,7 @@ function callfunction(){
 	 	speak.innerHTML= "only blase????";
 	 	face.src = "images/face/8.jpg";
 	 	image6.style.display = "block";		
-	 	image6.style.width = "80%";
+	 	image6.style.width = "400px";
 	 	image5.style.display = "none";
 	 	image7.style.display = "none"; 
 	 	image8.style.display = "none";
@@ -103,10 +103,10 @@ function callfunction(){
 	 	image5.style.display = "block";
 	 	image7.style.display = "block"; 
 	 	image8.style.display = "block";
-	 	image5.style.width = "40%";
-	 	image6.style.width = "40%";
-	 	image7.style.width = "40%";
-	 	image8.style.width = "40%";
+	 	image5.style.width = "200px";
+	 	image6.style.width = "200px";
+	 	image7.style.width = "200px";
+	 	image8.style.width = "200px";
 	 }
 	 	
 }
@@ -119,7 +119,7 @@ makeup.addEventListener('click',function(){
 	 	myphoto.src = "images/4.png";
 	 	speak.innerHTML= "Thank you very much, I like my makeup!";
 	 	face.src = "images/face/5.jpg";
-	 	image8.style.width = "80%";
+	 	image8.style.width = "400px";
 	 	image5.style.display = "none";
 	 	image7.style.display = "none";
 	 	image6.style.display = "none";
