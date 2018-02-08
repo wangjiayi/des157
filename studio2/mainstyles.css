@@ -250,15 +250,26 @@ footer a {
     position:absolute;
     border: none;
     padding-left: 62%;
+     padding-top: 10%;
   }
   form{
     font-size: 18px;
     line-height: 80px;
   }   
 }
-
-
-
+@media (max-width: 635px){
+  #bottomright{
+    padding-top: 70%;
+    padding-left: 10%;
+    width: 200px;
+  }
+  form{
+    line-height: 20px;
+  }
+  h1{
+    font-size: 18px;
+  }
+}
 
 
 
