@@ -2,6 +2,7 @@
 // sectiondiv.addEventListener('click',function(){
 // 	sectiondiv.style.backgroundColor = "blue";
 // })
+"use strict";
 var glass = document.getElementById('glass');
 var lipstick = document.getElementById('lipstick');
 var blash = document.getElementById('blash');

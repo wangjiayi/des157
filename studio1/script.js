@@ -1,3 +1,4 @@
+"use strict";
 var insideverb = document.getElementsByClassName("insideverb");
 var insidenoun = document.getElementsByClassName("insidenoun");
 var insideadj = document.getElementsByClassName("insideadj");
