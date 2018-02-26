@@ -106,9 +106,7 @@ button,input {
 }
 
 .whitekeybutton {
-  opacity: 0.5;
-  background: white;
-  background: linear-gradient(lightgray, white);
+  opacity: 0.6;
   box-shadow: inset 1px 1px 6px 0px black, inset -1px -1px 6px 0px black, 1px 0px grey, -1px 0px grey;
   border-radius: 0px 0px 4px 4px;
   height: 100%;
@@ -120,7 +118,7 @@ button,input {
   top: 0px;
   border-radius: 0px 0px 3px 3px;
   position: absolute;
-  background: linear-gradient(#111, #444);
+  background: black;
   z-index: 1;
 }
 
