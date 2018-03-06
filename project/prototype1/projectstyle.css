@@ -58,60 +58,39 @@ p{
 #top{
   width: 100%;
   height: 300px;
-  background: url(photos/festival1.png) repeat;
+  background: url(photos/festival.jpg) repeat;
   background-size: cover;
   margin:auto;
 }
 #div1{
   width: 100%;
-  /*height: 180px;*/
+  height: 70px;
   background-color: black;
-  opacity: 0.0;
+  opacity: 0.8;
   float: left;
 }
-#div2{
-  width: 100%;
-  height: 80px;
-  background-color: black;
-  opacity: 1;
-  float: left;
-}
-#div2 ul{
+#div1 ul{
   width:100%;
-  height:40px;
+  height:30px;
   text-align: center;
 }
-#div2 ul li{
-  height:40px;
-  float: left;
+#div1 ul li{
+  height:30px;
 }
-#div2 ul li a{
+#div1 ul li a{
   text-decoration: none;
   font-weight: bold;
   /*font-size: 20px;*/
-  line-height: 25px;
-}
-.list{
-  width:30%;
-  padding-top: 28px;
-}
-.list a{
-  color: white;
-  font-style: italic;
-  font-size: 18px;
-}
-.list a:hover{
-  color: #660219;
-  cursor: pointer;
-
-}
-#mainlist{
-  width:40%;
-  padding-top: 25px;
+  line-height: 20px;
 }
 #mainlist a{
   color: white;
-  font-size: 35px;
+  font-size: 30px;
+  padding-left: 5%;
+}
+#search,#filter{
+  margin-top: 3px;
+  margin-left: 2px;
 }
 /************************* end of top **************************/
 section{
