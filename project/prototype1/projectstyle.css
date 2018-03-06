@@ -150,7 +150,6 @@ section{
   transition-timing-function: ease;
   flex-shrink: 0;
   text-align: center;
-  font-color: #FFFFFF;
   border-style: none;
   display: flex;
   flex-direction: column;
@@ -203,7 +202,7 @@ footer a{
 }
 /*********************end of footer*****************************/
 
-.login-item input{
+/*.login-item input{
   width:350px;
   height:40px;
 }
@@ -222,7 +221,7 @@ footer a{
 }
 #loginBox{
   display:none;
-}
+}*/
 
 
 
