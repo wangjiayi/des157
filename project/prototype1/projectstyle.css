@@ -180,27 +180,37 @@ footer a{
   float: left;
 }
 /*********************end of footer*****************************/
+#middlebox{
+  height: 100px;
+  width: 200px;
+  margin-left: 20px;
+  display: none;
+}
+#filterbox{
+  width: 200px;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  font-family: GoudyStd-Bold;
+  margin-top: 10px;
+  float: left;
+}
+#enter{
+  margin-left: 10px;
+  float: left;
+  width:80px;
+  height: 20px;
+  margin-top: 10px;
+}
+#clear{
+  width: 80px;
+  margin-left: 20px;
+  float: left;
+  height: 20px;
+  margin-top: 10px;
+}
 
-/*.login-item input{
-  width:350px;
-  height:40px;
-}
-.login-item a{
-  width:350px;
-  height:40px;
-  background-color:black;
-  display:block;
-  line-height:50px;
-  text-algin:center;
-  color:white;
-}
-.login-item{
-  margin-top:10px;
-  margin-left:20px;
-}
-#loginBox{
-  display:none;
-}*/
+/**********************end of filter and search*************************/
 
 
 

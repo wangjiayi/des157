@@ -1,12 +1,20 @@
 
-var contact = document.getElementById("contact")
-contact.addEventListener("click",visitPage)
+var contact = document.getElementById("contact");
+contact.addEventListener("click",visitPage);
 function visitPage(){
         window.location.href='contact.html';
     }
-
-
-
+var search = document.getElementById("search");
+var filter = document.getElementById("filter");
+var middlebox = document.getElementById("middlebox");
+filter.addEventListener("click",showBox);
+function showBox(){
+    if(middlebox.style.display == "block"){
+        middlebox.style.display = "none";
+    }else{
+        middlebox.style.display = "block";
+    }
+}
 
 // var blockNumbers = 0;
 // function init(){
