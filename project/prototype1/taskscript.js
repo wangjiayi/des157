@@ -38,36 +38,43 @@ function startsearch(){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[0].style.display = "block";
+			blocks[0].style.left = 100 + "px";
 		}		
 	}else if(getlabel == "Africa" || getlabel == "africa"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[1].style.display = "block";
+			blocks[1].style.left = 100 + "px";
 		}	
 	}else if(getlabel == "north america" || getlabel == "North America"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[2].style.display = "block";
+			blocks[2].style.left = 100 + "px";
 		}	
 	}else if(getlabel == "south america" || getlabel == "South America"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[3].style.display = "block";
+			blocks[3].style.left = 100 + "px";
 		}	
 	}else if(getlabel == "Antarctica" || getlabel == "antarctica"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[4].style.display = "block";
+			blocks[4].style.left = 100 + "px";
 		}	
 	}else if(getlabel == "Europe" || getlabel == "europe"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[5].style.display = "block";
+			blocks[5].style.left = 100 + "px";
 		}	
 	}else if(getlabel == "Australia" || getlabel == "australia"){
 		for(i = 0; i <= 6; i++){
 			blocks[i].style.display = "none";
 			blocks[6].style.display = "block";
+			blocks[6].style.left = 100 + "px";
 		}	
 	}else{
 		alert("Plese enter world continents like: Asia, Africa, North America, South America, Antarctica, Europe, or Australia");
