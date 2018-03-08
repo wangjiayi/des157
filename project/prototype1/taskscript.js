@@ -7,70 +7,71 @@ function visitPage(){
 var search = document.getElementById("search");
 var filter = document.getElementById("filter");
 var middlebox = document.getElementById("middlebox");
+var middlebox2 = document.getElementById("middlebox2");
 filter.addEventListener("click",showBox);
 function showBox(){
-    if(middlebox.style.display == "block"){
-        middlebox.style.display = "none";
-    }else{
+    if(middlebox.style.display == "none"){
         middlebox.style.display = "block";
+        middlebox2.style.display = "none";
+
+    }else{
+        middlebox.style.display = "none";
+    }
+}
+search.addEventListener("click",showBox2);
+function showBox2(){
+	if(middlebox2.style.display == "none"){
+		middlebox2.style.display = "block";
+		middlebox.style.display = "none";
+    }else{
+        middlebox2.style.display = "none";
     }
 }
 
-// var blockNumbers = 0;
-// function init(){
-//     var slider = document.getElementById("down");
-//     var sliderWidth = slider.clientWidth;
-//     var blocks = document.getElementsByClassName("blocks");
-//     if (sliderWidth >=1000)
-//     {
-//         blockNumbers = 4;
-//     }
-//     else if(sliderWidth <1000 && sliderWidth >=800)
-//     {
-//         blockNumbers = 3;
-//     }
-//     else if(sliderWidth <800 && sliderWidth >=600)
-//     {
-//         blockNumbers = 2;
-//     }
-//     else if(sliderWidth <600 && sliderWidth >=400)
-//     {
-//         blockNumbers = 2;
-//     }
-//     var tmp = 0;
-//     var space = (sliderWidth - blockNumbers*300) / blockNumbers;
-//     for (i = 0; i < blocks.length; i++) {
-//         blocks[i].style.left = tmp + "px";
-//         tmp = tmp + space;
-//     }
-// }
-// var r_button = document.getElementById("r_button");
-// var l_button = document.getElementById("l_button");
-// r_button.addEventListener("click",moveNext);
-// l_button.addEventListener("click",movePre);
-// function moveNext() {
-//     var blocks = document.getElementsByClassName("blocks");
-//     var slider = document.getElementById("down");
-//     var sliderWidth = slider.clientWidth;
-//     var space = (sliderWidth - blockNumbers*300) / blockNumbers;
-//     var leftMost = 300*10+9*space; // length of ten boxes + spacing + padding
 
-//     if(parseInt(blocks[0].style.left) > (-leftMost + sliderWidth) ){
-//       for (i = 0; i < blocks.length; i++) {
-//           blocks[i].style.left = (parseInt(blocks[i].style.left) - 300 - space) + "px";
-//         }
-//     }
-// }
+var blocks = document.getElementsByClassName("blocks");
+var searchenter = document.getElementById("searchenter");
+searchenter.addEventListener("click",startsearch);
+function startsearch(){
+	var getlabel = document.getElementById("searchbox").value;
+	if (getlabel == "Asia" || getlabel == "asia"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[0].style.display = "block";
+		}		
+	}else if(getlabel == "Africa" || getlabel == "africa"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[1].style.display = "block";
+		}	
+	}else if(getlabel == "north america" || getlabel == "North America"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[2].style.display = "block";
+		}	
+	}else if(getlabel == "south america" || getlabel == "South America"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[3].style.display = "block";
+		}	
+	}else if(getlabel == "Antarctica" || getlabel == "antarctica"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[4].style.display = "block";
+		}	
+	}else if(getlabel == "Europe" || getlabel == "europe"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[5].style.display = "block";
+		}	
+	}else if(getlabel == "Australia" || getlabel == "australia"){
+		for(i = 0; i <= 6; i++){
+			blocks[i].style.display = "none";
+			blocks[6].style.display = "block";
+		}	
+	}else{
+		alert("Plese enter world continents like: Asia, Africa, North America, South America, Antarctica, Europe, or Australia");
+	}
+}
 
-// function movePre() {
-//     var blocks = document.getElementsByClassName("blocks");
-//     var slider = document.getElementById("down");
-//     var sliderWidth = slider.clientWidth;
-//     var space = (sliderWidth - blockNumbers*300) / blockNumbers;
-//     if(parseInt(blocks[0].style.left) < 0 ){
-//       for (i = 0; i < blocks.length; i++) {
-//           blocks[i].style.left = (parseInt(blocks[i].style.left) + 300 + space) + "px";
-//         }
-//     }
 
-// }

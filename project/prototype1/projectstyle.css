@@ -182,32 +182,48 @@ footer a{
 /*********************end of footer*****************************/
 #middlebox{
   height: 100px;
-  width: 200px;
-  margin-left: 20px;
+  width: 220px;
+  margin-left: 80px;
+  display: none;
+  background-color: black;
+  position: absolute;
+  margin-top: 38px;
+}
+#middlebox2{
+  height: 100px;
+  width: 220px;
+  background-color: black;
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 3px;
   display: none;
 }
-#filterbox{
-  width: 200px;
+#filterbox,#searchbox{
+  width: 220px;
   height: 30px;
   border: none;
   font-size: 20px;
   font-family: GoudyStd-Bold;
-  margin-top: 10px;
   float: left;
 }
+#searchenter{
+  margin-left: 25%;
+  margin-top: 10%;
+
+}
 #enter{
-  margin-left: 10px;
+  margin-left: 20px;
   float: left;
   width:80px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 10%;
 }
 #clear{
   width: 80px;
   margin-left: 20px;
   float: left;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 10%;
 }
 
 /**********************end of filter and search*************************/
