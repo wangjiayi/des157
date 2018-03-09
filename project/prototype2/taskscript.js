@@ -69,7 +69,7 @@ function startsearch(){
 			blocks[5].style.left = 100 + "px";
 		}	
 	}else{
-		alert("Plese enter world continents like: Asia, Africa, North America, South America, Antarctica, Europe, or Australia");
+		alert("Sorry, we do not have this continents. Plese enter world continents like: Asia, Africa, Australia......");
 	}
 }
 var enter = document.getElementById("enter");
@@ -89,7 +89,7 @@ function startfilter(){
 	}else if(getlabel == "Australia" || getlabel == "australia"){
 		blocks[5].style.display = "none";
 	}else{
-		alert("Plese enter world continents like: Asia, Africa, North America, South America, Antarctica, Europe, or Australia");
+		alert("Sorry, we do not have this continents. Plese enter world continents like: Asia, Africa, Australia......");
 	}
 }
 var clear = document.getElementById("clear");
