@@ -83,41 +83,25 @@ h1 a{
 }
 #div1{
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: black;
   opacity: 0.0;
   float: left;
 }
 #div2{
   width: 100%;
-  height: 300px;
+  height: 100px;
   background-color: black;
   opacity: 0.7;
   float: left;
-  padding-top: 5%;
 }
-#div2 ul{
+#div2 p{
   width:100%;
-  height:40px;
-  text-align: center;
-}
-#div2 ul li{
-  padding-top: 20px;
-  height:40px;
-  float: left;
-}
-#div2 ul li a{
-  text-decoration: none;
-  /*font-size: 20px;*/
-  line-height: 35px;
-}
-#mainlist{
-  width:100%;
-  padding-top: 15px;
-}
-#mainlist a{
   color: white;
-  font-size: 23px;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  line-height: 25px;
 }
 /************************* end of top **************************/
 footer {

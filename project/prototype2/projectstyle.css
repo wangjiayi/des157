@@ -57,7 +57,7 @@ p{
 /********************* end of header ****************************/
 #top{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background: url(photos/festival.jpg) repeat;
   background-size: cover;
   margin:auto;
@@ -66,7 +66,7 @@ p{
   width: 100%;
   height: 70px;
   background-color: black;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   float: left;
 }
 #div1 ul{
@@ -132,7 +132,7 @@ section{
   border-style: none;
   display: flex;
   flex-direction: column;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 
  /* float: left;*/
 }
@@ -255,22 +255,22 @@ footer a{
   text-decoration: none;
 }
 #asiaimage{
-  background: url(photos/asia.jpg) repeat;
+  background: url(photos/asia/1.jpg) repeat;
 }
 #africaimage{
-  background: url(photos/africa.jpg) repeat;
+  background: url(photos/africa/1.jpg) repeat;
 }
 #northamerica{
-  background: url(photos/northamerica.png) repeat;
+  background: url(photos/northamerica/1.jpg) repeat;
 }
 #southamerica{
-  background: url(photos/southamerica.png) repeat;
+  background: url(photos/southamerica/1.jpg) repeat;
 }
 #europe{
-  background: url(photos/europe.jpg) repeat;
+  background: url(photos/europe/1.jpg) repeat;
 }
 #australia{
-  background: url(photos/australia.png) repeat;
+  background: url(photos/australia/1.jpg) repeat;
 }
 
 

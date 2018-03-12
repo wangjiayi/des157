@@ -99,7 +99,8 @@ input{
 	height:350px;
 	width: 200px;
 	margin-top: 15px;
-	margin-left: 10px;
+	margin-left: 25px;
+	float: left;
 }
 .photoblog img{
 	width:200px;
@@ -166,9 +167,10 @@ input[type='file'] {
 	font-family: GoudyStd-Bold;
 	color: white;
 	margin-left:10px;
+	width: 60px;
 }
 #upload{
-	width:50%;
+	width:80px;
 	height: 25px;
 	font-size: 40%;
 	font-family: GoudyStd-Bold;
