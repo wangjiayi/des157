@@ -82,6 +82,7 @@ input{
 	margin-bottom: 20px;
 	padding-left: 20px;
 	padding-top: 2%;
+	overflow: scroll;
 }
 #m_left_top p{
 	color: white;
@@ -109,7 +110,19 @@ input{
 .tag{
 	height:90px;
 	border: 1px solid black;
+	overflow: scroll;
 
+}
+.inputtag{
+	margin-top: 15px;
+}
+.add{
+	margin-top: 20px;
+	margin-bottom: auto;
+	margin-left: 5px;
+	width: 45px;
+	height: 20px;
+	padding-top: 2px;
 }
 #m_right{
 	font-size: 25px;
@@ -147,7 +160,7 @@ input{
 #choose::-webkit-file-upload-button{
   visibility: hidden;
 }
-input[type='file'] {
+#firstbox input[type='file'] {
   color: transparent;
 }
 #choose{
