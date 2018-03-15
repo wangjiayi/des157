@@ -1,4 +1,5 @@
 var blockNumbers = 0;
+var flag = true;
 function init(){
     var slider = document.getElementById("down");
     var sliderWidth = slider.clientWidth;
@@ -25,6 +26,17 @@ function init(){
         blocks[i].style.left = tmp + "px";
         tmp = tmp + space;
     }
+    var article2 = document.getElementById("article2");
+    setInterval(function(){
+        if(flag ==true){
+            article2.style.display = "block"; 
+        }
+    }, 4000);
+    var next_time = document.getElementById("reset");
+    next_time.addEventListener("click",function(){
+        article2.style.display = "none";
+        flag = false;
+    });   
 }
 var r_button = document.getElementById("r_button");
 var l_button = document.getElementById("l_button");

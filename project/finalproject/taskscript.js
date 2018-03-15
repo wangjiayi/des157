@@ -1,34 +1,16 @@
-
-var contact = document.getElementById("contact");
-contact.addEventListener("click",visitPage);
-function visitPage(){
-        window.location.href='contact.html';
-    }
-var search = document.getElementById("search");
-var filter = document.getElementById("filter");
+var searchbox = document.getElementById("searchbox");
 var middlebox = document.getElementById("middlebox");
-var middlebox2 = document.getElementById("middlebox2");
-filter.addEventListener("click",showBox);
-function showBox(){
-    if(middlebox.style.display == "none"){
-        middlebox.style.display = "block";
-        middlebox2.style.display = "none";
-
-    }else{
-        middlebox.style.display = "none";
-    }
-}
-search.addEventListener("click",showBox2);
-function showBox2(){
-	if(middlebox2.style.display == "none"){
-		middlebox2.style.display = "block";
-		middlebox.style.display = "none";
-    }else{
-        middlebox2.style.display = "none";
-    }
-}
 var blocks = document.getElementsByClassName("blocks");
 var searchenter = document.getElementById("searchenter");
+var clear = document.getElementById("clear");
+var article = document.getElementById("article");
+var article2 = document.getElementById("article2");
+var search = document.getElementById("search");
+var about = document.getElementById("about");
+var contact = document.getElementById("contact");
+var nexttime = document.getElementById("nexttime");
+
+
 searchenter.addEventListener("click",startsearch);
 function startsearch(){
 	var getlabel = document.getElementById("searchbox").value;
@@ -70,35 +52,50 @@ function startsearch(){
 		}	
 	}else{
 		alert("Sorry, we do not have this continents. Plese enter world continents like: Asia, Africa, Australia......");
-	}
+	}	
 }
-var enter = document.getElementById("enter");
-enter.addEventListener("click",startfilter);
-function startfilter(){
-	var getlabel = document.getElementById("filterbox").value;
-	if (getlabel == "Asia" || getlabel == "asia"){
-		blocks[0].style.display = "none";
-	}else if(getlabel == "Africa" || getlabel == "africa"){
-		blocks[1].style.display = "none";
-	}else if(getlabel == "north america" || getlabel == "North America"){
-		blocks[2].style.display = "none";	
-	}else if(getlabel == "south america" || getlabel == "South America"){
-		blocks[3].style.display = "none";
-	}else if(getlabel == "Europe" || getlabel == "europe"){
-		blocks[4].style.display = "none";
-	}else if(getlabel == "Australia" || getlabel == "australia"){
-		blocks[5].style.display = "none";
-	}else{
-		alert("Sorry, we do not have this continents. Plese enter world continents like: Asia, Africa, Australia......");
-	}
-}
-var clear = document.getElementById("clear");
 clear.addEventListener("click",clearfilter);
 function clearfilter(){
 	for(i = 0; i <= 5; i++){
 			blocks[i].style.display = "block";
 		}	
 }
+search.addEventListener("click",showBox);
+function showBox(){
+    if(middlebox.style.display == "none"){
+        middlebox.style.display = "block";
+        article2.style.display = "none";
+        article.style.display = "none";
+
+    }else{
+        middlebox.style.display = "none";
+    }
+}
+contact.addEventListener("click", showarticle);
+function showarticle(){
+	if(article.style.display == "block"){
+		article.style.display = "none";
+	}else{
+		article.style.display = "block";
+		article2.style.display = "none";
+		middlebox.style.display = "none";
+	}	
+}
+about.addEventListener("click", showarticle2);
+function showarticle2(){
+	if(article2.style.display == "block"){
+		article2.style.display = "none";
+	}else{
+		article2.style.display = "block";
+		article.style.display = "none";
+		middlebox.style.display = "none";
+	}	
+}
+nexttime.addEventListener("click",hidden);
+function hidden(){
+	article.style.display = "none";
+}
+
 
 
 
