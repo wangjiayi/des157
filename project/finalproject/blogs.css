@@ -62,8 +62,8 @@ section{
 }
 button{
 	margin-top: 12px;
-	background-color: black;
-	color: white;
+	background-color: #B8C7D2;
+	color: black;
 	font-family: GoudyStd-Bold;
 	font-size: 15px;
 	border: 0.5px solid black;
@@ -76,21 +76,81 @@ input{
 }
 /***************** here is for middle right **************************/
 #m_left_top{
-	width: 100%;
-	height: 200px;
-	background: black;
+	width: 80%;
+	height: 250px;
+	background: #B8C7D2;
 	margin-bottom: 20px;
 	padding-left: 20px;
 	padding-top: 2%;
 	overflow: scroll;
+	float: left;
 }
 #m_left_top p{
-	color: white;
+	color: black;
 	line-height: 20px;
 }
-#m_left_bottom{
+/*#m_left_bottom{
 	float: left;
 	width: 85%;
+	height:400px;
+	border: 3px solid black;
+	margin-left: 10px;
+	overflow: scroll;
+}*/
+#m_right_top{
+	margin-left: 2%;
+	width: 18%;
+	float: left;
+}
+#userupload{
+	margin-top: 25px;
+	height:100px;
+	background: #B8C7D2;
+	padding:15px;
+}
+#userupload p{
+	margin-top: 30px;
+	color: black;
+	font-size: 20px;
+}
+#firstbox{
+	height: 100px;
+  padding-top: 10px;
+  color: transparent;
+  background: #B8C7D2;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+#choose{
+	outline:none;
+	margin-left: 12%;
+}
+#choose::before{
+	outline:none;
+	text-align:center;
+}
+#upload,#choose{
+	color: black;
+	display: block;
+	margin-bottom: 10px;
+}
+#choose{
+	width:90%;
+	text-align:center;
+}
+#upload{
+	margin-top: 25px;
+	margin-left:5%;
+	border-radius: 15px;
+	background: white;
+	width:60%;
+	cursor: pointer;
+	height: 20px;
+	margin-left: 18%;
+}
+#middle{
+	float: left;
+	width: 98%;
 	height:400px;
 	border: 3px solid black;
 	margin-left: 10px;
@@ -128,80 +188,21 @@ input{
 	font-size: 25px;
 	width: 13%;
 	float: right;
-	color: white;
+	color: black;
 
 }
-#userupload{
-	height:250px;
-	background: #F6F6F6;
-	padding:15px;
-}
-#userupload p{
-	color: black;
-}
-#userupload img{
-	width: 40px;
-	margin-top: 30px;
-	margin-left: 40px;
-}
-#topbox{
-	background: black;
-}
-#topbox p{
-	float: left;
-	padding-left: 32px;
-	padding-top:15px;
-}
-#firstbox{
-	padding-left: 20px;
-	color: white;
-	background: black;
-}
-#choose::-webkit-file-upload-button{
-  visibility: hidden;
-}
-#firstbox input[type='file'] {
-  color: transparent;
-}
-#choose{
-	width: 80%;
-}
-#choose::before {
-	margin-top: 10px;
-	content: 'choose file...';
-	display: inline-block;
-	border: 2px solid white;
-	padding: 5px 8px;
-	outline: none;
-	white-space: nowrap;
-	-webkit-user-select: none;
-	cursor: pointer;
-	font-size: 100%;
-	font-family: GoudyStd-Bold;
-	color: white;
-	margin-left:10px;
-	width: 60px;
-}
-#upload{
-	width:80px;
-	height: 25px;
-	font-size: 40%;
-	font-family: GoudyStd-Bold;
-	background: black;
-	border: 2px solid white;
-	margin-left: 18px;
-}
+
 /*******************end for middle****************************/
 footer {
-	margin-top: 20px;
+margin-top: 20px;
   width: 100%;
   height: 80px;
   float: left;
   text-align: center;
   padding-top: 10px;
   font-size: 16px;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #B8C7D2;
 }
 footer p{
   font-size: 12px;
@@ -209,7 +210,7 @@ footer p{
 }
 footer a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 #fleft, #fright {
   width: 50%;

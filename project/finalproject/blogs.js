@@ -3,9 +3,9 @@ var count = 2;
 var upload = document.getElementById("upload");
 upload.addEventListener("click",creatdiv);
 function creatdiv(){	
-	var m_left_bottom = document.getElementById("m_left_bottom");
+	var middle = document.getElementById("middle");
 	photoDiv = document.createElement("div");
-	m_left_bottom.appendChild(photoDiv);
+	middle.appendChild(photoDiv);
 	photoDiv.id = "div" + count;
 	photoDiv.className = "photoblog"; 
 
