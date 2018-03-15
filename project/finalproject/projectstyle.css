@@ -96,6 +96,9 @@ p{
   /*font-size: 20px;*/
   line-height: 20px;
 }
+a{
+  text-decoration: none;
+}
 #mainlist a{
   color: gray;
   font-size: 30px;
@@ -108,11 +111,11 @@ p{
 /************************* end of top **************************/
 section{
   width: 85%;
+  height: 50px;
   margin: auto;
   margin-top: 30px;
   border: 3px solid gray;
 }
-
 /*************************** end of section **************************/
 #blogspart{
   height: 330px;

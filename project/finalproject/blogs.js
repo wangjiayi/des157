@@ -24,7 +24,7 @@ function creatdiv(){
 	photoDiv.appendChild(tagInput);
 	tagInput.className = "inputtag";
 	tagInput.id = "inputtag" + count;
-	tagInput.placeholder = "enter tags"
+	tagInput.placeholder = "enter some commands"
 
 	tagButton = document.createElement("button");
 	photoDiv.appendChild(tagButton);
@@ -102,6 +102,36 @@ function showtag(click_id){
 
 	
 }
+var div0 = document.getElementById("img0");
+var article1 = document.getElementById("article1");
+var reset1 = document.getElementById("reset1");
+div0.addEventListener("click",showarticle1);
+function showarticle1(){
+	if(article1.style.display == "block"){
+		article1.style.display = "none";
+	}else{
+		article1.style.display = "block";
+	}
+	
+}
+reset1.addEventListener("click",showarticle1);
+
+var div1 = document.getElementById("img1");
+var article2 = document.getElementById("article2");
+var reset2 = document.getElementById("reset2");
+div1.addEventListener("click",showarticle2);
+function showarticle2(){
+	if(article2.style.display == "block"){
+		article2.style.display = "none";
+	}else{
+		article2.style.display = "block";
+	}
+	
+}
+reset1.addEventListener("click",showarticle2);
+reset2.addEventListener("click",showarticle2);
+
+
 
 
 
